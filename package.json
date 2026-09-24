@@ -1,0 +1,11 @@
+{
+  "name": "aibolit-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Айболит — статический фронтенд (HTML/CSS/JS), деплой на Vercel",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "npx serve public -l 3000",
+    "deploy": "vercel --prod"
+  }
+}
